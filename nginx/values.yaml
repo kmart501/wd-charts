@@ -47,7 +47,7 @@ ingress:
   enabled: true
   className: "alb"
   annotations:
-    alb.ingress.kubernetes.io/subnets: [] #subnet-02b43de554e277905, subnet-061d3373af120db24
+    alb.ingress.kubernetes.io/subnets: subnet-02b43de554e277905, subnet-061d3373af120db24
     alb.ingress.kubernetes.io/scheme: internal
     alb.ingress.kubernetes.io/load-balancer-name: {} #test-nginx-internal-alb
     alb.ingress.kubernetes.io/load-balancer-attributes: {} #deletion_protection.enabled=false
