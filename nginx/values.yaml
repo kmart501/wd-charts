@@ -49,12 +49,12 @@ ingress:
   annotations:
     alb.ingress.kubernetes.io/subnets: subnet-02b43de554e277905, subnet-061d3373af120db24
     alb.ingress.kubernetes.io/scheme: internal
-    alb.ingress.kubernetes.io/load-balancer-name: "" #test-nginx-internal-alb
-    alb.ingress.kubernetes.io/load-balancer-attributes: "" #deletion_protection.enabled=false
+    # alb.ingress.kubernetes.io/load-balancer-name: "" #test-nginx-internal-alb
+    # alb.ingress.kubernetes.io/load-balancer-attributes: "" #deletion_protection.enabled=false
     alb.ingress.kubernetes.io/tags: Environment=test,Team=it-devops
     alb.ingress.kubernetes.io/ip-address-type: ipv4
     alb.ingress.kubernetes.io/listen-ports:  '[{"HTTP": 80}, {"HTTPS": 443}]'
-    alb.ingress.kubernetes.io/certificate-arn: "" #arn:aws:acm:us-east-1:907559391624:certificate/6d6e1695-54a3-435d-bde5-c77ad3aafacc
+    # alb.ingress.kubernetes.io/certificate-arn: "" #arn:aws:acm:us-east-1:907559391624:certificate/6d6e1695-54a3-435d-bde5-c77ad3aafacc
   hosts:
     - host: "k8s.test-welldyne.com"
       paths:
