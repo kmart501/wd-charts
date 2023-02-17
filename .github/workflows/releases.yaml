@@ -1,13 +1,13 @@
-# on:
-#   pull_request:
-#     types: [closed]
-
 name: Release Charts
 
 on:
   push:
     branches:
       - main
+
+# on:
+#   pull_request:
+#     types: [closed]
 
 jobs:
   release:
