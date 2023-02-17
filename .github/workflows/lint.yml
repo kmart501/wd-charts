@@ -2,7 +2,7 @@ name: Lint and Test Charts
 
 on: 
   pull_request:
-    types: [open]
+    types: [opened, reopened]
 
 jobs:
   lint-test:
