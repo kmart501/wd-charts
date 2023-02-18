@@ -3,6 +3,16 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-02-18T00:02:07.956116157Z"
+    description: A Helm chart for Kubernetes
+    digest: 593cd7551dcc29325a3dd3b4d50aa4ee6e8e6c1f5ea5e9b60aa78b526486b90b
+    name: nginx
+    type: application
+    urls:
+    - https://github.com/kmart501/wd-charts/releases/download/nginx-0.2.0/nginx-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-02-17T23:45:48.492684955Z"
     description: A Helm chart for Kubernetes
     digest: de34f4ae830dd054a1b056fb2dc2fc8b94d4e9809760d25fbdd2c618a27a79c3
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/kmart501/wd-charts/releases/download/nginx-0.1.0/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-17T23:45:48.492689555Z"
+generated: "2023-02-18T00:02:07.956123857Z"
