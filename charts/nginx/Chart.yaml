@@ -23,7 +23,6 @@ version: 0.2.0
 # It is recommended to use it with quotes.
 appVersion: "1.16.0"
 
-maintainers: # (optional)
+maintainers:
   - name: kmartinez
     email: kmartinez@welldynerx.com
-    # url: A URL for the maintainer (optional for each maintainer)
